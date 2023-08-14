@@ -1,6 +1,6 @@
-"""wargame.__init__
+"""wargame.test.__init__
 
-This is the __init__.py file for the wargame package.
+This is the __init__.py file for the wargame.test package
 
 This module is compatible with Python 3.5.x. It contains
 supporting code for the book, Learning Python Application Development,
@@ -10,8 +10,7 @@ Packt Publishing.
 
 :license: The MIT License (MIT) . See LICENSE file for further details.
 """
-
-
+from __future__ import print_function
 import sys
 import os
 current_path = os.path.dirname(os.path.abspath(__file__))
